@@ -213,4 +213,5 @@ else:
 
 # Footer
 st.divider()
-st.caption("🤖 Sistema RAG con Hugging Face y LangChain | Desarrollado con Streamlit")
+
+st.caption("🤖 Sistema RAG con Hugging Face y LangChain | Desarrollado con Streamlit | By Jorge Ignacio Lara Ceballos (DDRRAKKENN)")
