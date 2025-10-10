@@ -7,7 +7,7 @@
 
 Una aplicación web interactiva que utiliza **Retrieval-Augmented Generation (RAG)** para responder preguntas sobre Argentina. El sistema combina búsqueda semántica con modelos de lenguaje para proporcionar respuestas precisas y contextualizadas.
 
-![App Preview](captura1.png)
+<img src="captura1.png" alt="Logo" width="300">
 
 ## 🎯 Características
 
