@@ -72,6 +72,8 @@ with st.sidebar:
          "google/flan-t5-large"]
     )
     
+# comentario random de vale
+
     # Número de documentos a recuperar
     k_docs = st.slider("Documentos a recuperar (k)", 1, 5, 3)
     
