@@ -12,6 +12,8 @@ st.set_page_config(
     layout="wide"
 )
 
+
+
 # Dataset de Argentina
 DOCUMENTS = [
     "Argentina es el segundo país más grande de América del Sur y el octavo más grande del mundo.",
@@ -91,7 +93,7 @@ with st.sidebar:
 # Función para inicializar el vectorstore
 @st.cache_resource
 def init_vectorstore(embedding_model_name):
-    """Inicializa el vectorstore con los documentos"""
+    """Inicializa el vectorstore con los documentos dados"""
     embedding_model = HuggingFaceEmbeddings(model_name=embedding_model_name)
     docs = [Document(page_content=text) for text in DOCUMENTS]
     vectorstore = FAISS.from_documents(docs, embedding_model)
