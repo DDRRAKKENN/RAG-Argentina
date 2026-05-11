@@ -19,6 +19,7 @@ Una aplicación web interactiva que utiliza **Retrieval-Augmented Generation (RA
 - ⚡ **Cache inteligente**: Optimización de modelos con Streamlit cache
 - 🎨 **Diseño moderno**: UI intuitiva y responsive
 
+
 ## 📋 Tabla de Contenidos
 
 - [Arquitectura](#-arquitectura)
